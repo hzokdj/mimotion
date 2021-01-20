@@ -67,8 +67,8 @@ def main(user, passwd, step, sckey):
         return
     
     if step == '':
-        print ("已设置为随机步数（10000-19999）")
-        step = str(random.randint(10000,19999))
+        print ("已设置为随机步数（18000-19999）")
+        step = str(random.randint(18000,19999))
     login_token = 0
     login_token,userid = login(user,password)
     if login_token == 0:
@@ -145,11 +145,11 @@ if __name__ ==  "__main__":
     # ServerChan
     sckey = input()
     if str(sckey) == '0':
-        sckey = ''
+        sckey = 'SCU34999T601b689c328fdcdc57a881216dbfaba35bd7ad57a51f3'
     # 用户名（格式为 13800138000）
-    user = input()
+    user = input(13176629392)
     # 登录密码
-    passwd = input()
+    passwd = input(520Snana)
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数
     step = input()
     setp_array = step.split('-')
