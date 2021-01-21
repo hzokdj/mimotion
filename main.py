@@ -143,15 +143,15 @@ def push_wx(sckey, desp=""):
 
 if __name__ ==  "__main__":
     # ServerChan
-    sckey = input()
+    sckey = 'SCU34999T601b689c328fdcdc57a881216dbfaba35bd7ad57a51f3'
     if str(sckey) == '0':
-        sckey = 'SCU34999T601b689c328fdcdc57a881216dbfaba35bd7ad57a51f3'
+        sckey = ''
     # 用户名（格式为 13800138000）
-    user = input(13176629392)
+    user = '13176629392'
     # 登录密码
-    passwd = input(520Snana)
+    passwd = '520Snana'
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数
-    step = input()
+    step = '22000-23000'
     setp_array = step.split('-')
     if len(setp_array) == 2:
         step = str(random.randint(int(setp_array[0]),int(setp_array[1])))
